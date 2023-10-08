@@ -1,0 +1,37 @@
+.TituloCep {
+    color: rgb(28, 98, 163);
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+.Input {
+    height: 200px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.InputText {
+    width: 400px;
+    font-size: 45px;
+    border-style: none;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.InputButtonDiv {
+    margin: 20px;
+}
+
+.InputButton {
+    width: 200px;
+}
+
+.InfoCep {
+    padding-left: 40px;
+    list-style: none;
+    font-size: 40px;
+    font-weight: bold;
+}

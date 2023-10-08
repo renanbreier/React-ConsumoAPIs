@@ -1,0 +1,26 @@
+.TituloPesquisar {
+    color: rgb(28, 98, 163);
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+.InputPesquisar {
+    height: 200px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.InputImage {
+    padding-left: 32%;
+}
+
+.LayoutImage {
+    width: 600px;
+    height: 500px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+}

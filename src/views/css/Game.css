@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@900&family=Skranji&display=swap');
+
+.TituloGame {
+  color: rgb(28, 98, 163);
+  text-align: center;
+  font-weight: bold;
+  padding-right: 90px;
+}
+
+.board-row {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: repeat(3, 200px);
+  gap: 1rem;
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(78, 152, 216);
+  border-radius: 20px;
+  font-size: 9rem;
+  font-weight:bold;
+  cursor: pointer;
+}
+
+.x-square {
+  background-color: rgb(255, 239, 179);
+  color: rgb(50, 159, 255);
+  cursor: not-allowed;
+}
+
+.o-square {
+  background-color: rgb(197, 193, 177);
+  color: rgb(50, 159, 255);
+  cursor: not-allowed;
+}
+
+.Game {
+  padding-left: 240px;
+  display: flex;
+  justify-content: center;
+}
+
+.game-info {
+  margin-left: 1em;
+  font-size: 2rem;
+}
+
+.game-info h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Saira', sans-serif;
+  font-size: 2.3rem;
+}
+
+.status {
+  margin-left: 9em;
+  color: white;
+  font-family: 'Saira', sans-serif;
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  background-color: rgb(73, 160, 150);
+  width: 23.6rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.LiGame {
+  list-style:none;
+  font-size: 3rem;
+}
+
+.ButtonGame {
+  color: rgb(255, 255, 255);
+  background-color: rgb(49, 104, 97);
+  font-size: 1.1rem;
+  padding: 1rem;
+  border-radius: 30px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.game-board {
+  width: 900px;
+  padding-right: 210px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
