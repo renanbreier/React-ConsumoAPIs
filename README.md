@@ -1,8 +1,9 @@
-# React + Vite
+# Projeto em React e Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto criado com React e Vite, utilizando diversos componentes e hooks para o consumo de duas APIs
 
-Currently, two official plugins are available:
+API Unsplash para geração de imagens
+![Screenshot_19](https://github.com/renanbreier/React-ConsumoAPIs/assets/97745189/8113382a-c534-40c3-a68e-8a95fff8c21b)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Utilizando alguns componentes e css essa uma das paginas utilizadas nos projeto
+![Screenshot_18](https://github.com/renanbreier/React-ConsumoAPIs/assets/97745189/b338735b-3b5d-465d-8607-ea1cf69926fd)
